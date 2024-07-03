@@ -6,9 +6,9 @@ class Mammal extends Chordate{
     }
 }
 
-const chaply = new Mammal('Чапли', 'good', 'plant')
-const Lion = new Mammal('Дубай', 'good', 'meat')
+const chaply = new Mammal('Чапли', 'good', ['plant'])
+const lion = new Mammal('Лев', 'good', ['meat'])
 
-Lion.eat(chaply)
+lion.eat(chaply)
 
-monster.eat(Lion)
+monster.eat(lion)

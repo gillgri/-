@@ -16,11 +16,11 @@ class Chordate{
     }
 
     eat(target){
-        console.log(`${this.name} укусил ${target.name}`)
+        console.log(`${this.name} съел ${target.name}`)
     }
 }
     const upir = new Chordate('Упырь', 'good', true, false, 'meat')
-    const monster = new Chordate('Халк', 'good', false, true, 'meat')
+    const monster = new Chordate('Монстр', 'good', false, true, 'meat')
 
     monster.eat(upir)
 
